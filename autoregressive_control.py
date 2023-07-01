@@ -776,8 +776,8 @@ if __name__ == '__main__':
     args = input_arg_parser()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     base_path = "./models/"
-    # results_path = os.path.join(base_path, args.env_name)
-    results_path = os.path.join(base_path, "Acrobot-v1")
+    results_path = os.path.join(base_path, args.env_name)
+    #results_path = os.path.join(base_path, "Acrobot-v1")
     if not os.path.exists(results_path):
         os.mkdir(results_path)
 
