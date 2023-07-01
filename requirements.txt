@@ -1,6 +1,5 @@
 -e git+https://github.com/modanesh/anomalous_rl_envs.git@928459d74e187e887d107309ec20ed350825742b#egg=anomalous_gym&subdirectory=gym
 atari-py==0.2.9
-box2d-py==2.3.8
 cffi==1.14.6
 cloudpickle==1.3.0
 cycler==0.10.0
