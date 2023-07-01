@@ -5,5 +5,8 @@
 #SBATCH --gres=gpu:1
 #SBATCH --mail-user=linas.nasvytis@stx.ox.ac.uk
 
-python autoregressive_control.py --test_policy --env_name CartPole-v1 --num_iterations 10000
+echo “running python3 autoregressive_control.py --test_policy --env_name CartPole-v1 --num_iterations 10000”
 
+python3 autoregressive_control.py --test_policy --env_name CartPole-v1 --num_iterations 10000
+
+echo “DONE”
